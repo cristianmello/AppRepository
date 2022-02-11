@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tarea1"
+        android:title="@string/tarea1"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/tarea1_2"
+        android:title="@string/tarea1_2"
+        android:visible="true" />
+    <item
+        android:id="@+id/tarea2"
+        android:title="@string/tarea2"
+        android:visible="true" />
+    <item
+        android:id="@+id/tarea2_2"
+        android:title="@string/tarea2_2"
+        android:visible="true" />
+</menu>

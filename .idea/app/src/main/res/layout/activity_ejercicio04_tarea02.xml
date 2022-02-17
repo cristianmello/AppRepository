@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Ejercicio04_Tarea02">
+
+    <Button
+        android:id="@+id/pesoDolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="63dp"
+        android:onClick="PesoADolar"
+        android:text="Peso a dolar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputCantidad" />
+
+    <Button
+        android:id="@+id/pesoReal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="23dp"
+        android:onClick="PesoAReal"
+        android:text="Peso a Real"
+        app:layout_constraintBottom_toTopOf="@+id/dolarPeso"
+        app:layout_constraintEnd_toStartOf="@+id/realPeso"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pesoDolar"
+        app:layout_constraintTop_toBottomOf="@+id/inputCantidad" />
+
+    <Button
+        android:id="@+id/realPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="RealAPeso"
+        android:text="Real a peso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputCantidad" />
+
+    <Button
+        android:id="@+id/realDolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:onClick="RealADolar"
+        android:text="Real a Dolar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pesoDolar" />
+
+    <Button
+        android:id="@+id/dolarPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="11dp"
+        android:onClick="DolarAPeso"
+        android:text="Dolar a Peso"
+        app:layout_constraintEnd_toStartOf="@+id/dolarReal"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/realDolar"
+        app:layout_constraintTop_toBottomOf="@+id/pesoReal" />
+
+    <Button
+        android:id="@+id/dolarReal"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="DolarAReal"
+        android:text="Dolar a Real"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/realPeso" />
+
+    <EditText
+        android:id="@+id/inputCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:hint="Ingrese cantidad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

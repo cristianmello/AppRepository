@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        android:title="@string/action_search" />
+
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"
+        app:showAsAction="always"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/tarea1"
+        android:title="@string/tarea1"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/tarea1_2"
+        android:title="@string/tarea1_2"
+        android:visible="true" />
+    <item
+        android:id="@+id/tarea2"
+        android:title="@string/tarea2"
+        android:visible="true" />
+    <item
+        android:id="@+id/tarea2_2"
+        android:title="@string/tarea2_2"
+        android:visible="true" />
+    <item
+        android:id="@+id/tarea4"
+        android:title="@string/tarea4" />
+    <item
+        android:id="@+id/tarea4_2"
+        android:title="@string/tarea4_2" />
+</menu>

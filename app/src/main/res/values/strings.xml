@@ -4,6 +4,8 @@
     <string name="tarea1_2">Tarea 1.2</string>
     <string name="tarea2">Tarea 2</string>
     <string name="tarea2_2">Tarea 2.2</string>
+    <string name="tarea4">Tarea 4</string>
+    <string name="tarea4_2">Tarea 4.2</string>
     <!-- Strings related to login -->
     <string name="title_activity_login_ejercicio02_tarea01">LoginActivityEjercicio02Tarea01</string>
     <string name="prompt_email">Email</string>
@@ -17,6 +19,7 @@
     <string name="title_activity_login_ejercicio2_tarea01">LoginActivity_ejercicio2_tarea01</string>
     <string name="title_activity_login_ejercicio01_tarea01">LoginActivity_Ejercicio01_Tarea01
     </string>
+    <string name="action_search">action_search</string>
 
 
 </resources>

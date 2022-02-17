@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMovil">
         <activity
+            android:name=".Activity_Ejercicio04_Tarea02"
+            android:exported="false" />
+        <activity
+            android:name=".activity_ejercicio4_tarea01"
+            android:exported="false" />
+        <activity
             android:name=".activityMain_Ejercicio02_Tarea1_Welcome"
             android:exported="false" />
         <activity
